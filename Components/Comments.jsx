@@ -25,7 +25,6 @@ const Comments = () => {
           trigger: ".main11",
           start: "top bottom",
           end: "bottom bottom",
-          scrub: true,
         }
       }
     )
