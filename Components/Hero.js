@@ -67,7 +67,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className='hero'>
+    <div id='Home' className='hero'>
       <div className='div flex justify-center items-center gap-8 sm:flex flex-col xl:flex-row'>
         <div className='left text-black flex flex-col gap-7'>
           <div className='inner-left flex flex-col justify-center items-center'>
@@ -80,7 +80,7 @@ const Hero = () => {
             </h1>
           </div>
           <div className='inner-img flex flex-col justify-center items-center'>
-            <img className='w-[170px] lg:w-[260px]' src='/hero_btn.svg' alt='Hero Button' />
+            <img className='w-[170px] lg:w-[260px] cursor-pointer' src='/hero_btn.svg' alt='Hero Button' />
           </div>
         </div>
 

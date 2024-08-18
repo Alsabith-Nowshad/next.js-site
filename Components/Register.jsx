@@ -11,31 +11,31 @@ function Register() {
         
         <div className="box flex items-center justify-center">
 
-        <div className="boxes  bg-blue-800  w-[73vw] h-[70vh] rounded-[30px] flex flex-col justify-center items-center gap-12 text-white">
+        <div className="boxes  bg-blue-800  w-[73vw] h-[70vh] rounded-[30px] flex flex-col justify-center items-center gap-14 text-white">
 
-            <div className="top  md:flex  gap-8">
+            <div className="top   md:flex  md:gap-8">
                 <div className="first">
             <h1>First Name</h1>
-            <input className='bg-white px-5 text-blue-800 w-[60vw] md:w-[30vw] md:h-[8vh] rounded-xl' type="text" />
+            <input className='bg-white px-5 text-blue-800 h-[3vh] w-[60vw] md:w-[30vw] md:h-[8vh] rounded-xl' type="text" />
             </div>
             <div className="second">
             <h1>Last Name</h1>
-            <input className='bg-white px-5 text-blue-800 w-[60vw] md:w-[30vw] md:h-[8vh] rounded-xl' type="text" />
+            <input className='bg-white px-5 text-blue-800 h-[3vh]  w-[60vw] md:w-[30vw] md:h-[8vh] rounded-xl' type="text" />
             </div>
             </div>
             <div className="top  md:flex  gap-8">
                 <div className="third">
             <h1>Contact</h1>
-            <input className='bg-white px-5 text-blue-800 w-[60vw] md:w-[30vw] md:h-[8vh] rounded-xl' type="text" />
+            <input className='bg-white px-5 text-blue-800 h-[3vh] w-[60vw] md:w-[30vw] md:h-[8vh] rounded-xl' type="text" />
             </div>
             <div className="forth">
             <h1>Email</h1>
-            <input className='bg-white px-5 text-blue-800 w-[60vw] md:w-[30vw] md:h-[8vh] rounded-xl' type="text" />
+            <input className='bg-white px-5 text-blue-800 h-[3vh] w-[60vw] md:w-[30vw] md:h-[8vh] rounded-xl' type="text" />
             </div>
             </div>
             <div className="bottom">
                 <h1>Message</h1>
-            <input className='bg-white px-5 text-blue-800 w-[60vw] md:w-[61.8vw] md:h-[8vh] rounded-xl' type="text" />
+            <input className='bg-white px-5 text-blue-800 h-[3vh] w-[60vw] md:w-[61.8vw] md:h-[8vh] rounded-xl' type="text" />
             </div>
 
     <div className="btn md:flex justify-end items-end md:w-full px-24">

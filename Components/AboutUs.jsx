@@ -61,8 +61,8 @@ const AboutUs = () => {
 
 
   return (
-    <>
-    <div className='main  flex flex-col justify-center items-center px-4 md:flex mb-8 md:p-8'>
+<>
+    <div id="Aboutus" className='main flex flex-col justify-center items-center px-4 md:flex mb-8 md:p-8'>
         <div className="main1 mt-11 flex flex-col ">
         <h1 className="txtAbt aboutus flex justify-center font-extrabold text-blue-800 text-[35px] gap-4 pb-6   md:hidden"> About <span className="font-extrabold text-red-800"> Us</span></h1>
       <h1 className='txtAbt hidden font-extrabold text-blue-800 text-[5vw] md:flex '>ABOUT</h1>

@@ -20,6 +20,7 @@ function Faqs() {
   ];
 
   return (
+    <section id='Faqs'>
     <div className="main w-full h-auto px-12 md:px-24 lg:px-48 py-8">
       <h1 className="text-blue-800 font-bold text-3xl md:text-4xl lg:text-5xl">FAQ'S</h1>
       <div className="inside mt-12 flex flex-col md:flex-row gap-6">
@@ -45,6 +46,7 @@ function Faqs() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 
